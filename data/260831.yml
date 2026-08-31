@@ -1,0 +1,59 @@
+about:
+  description: :camera_flash: Fast batch image resizer and rotator
+  license: GPL-3.0
+  homepage: 
+  head: 63b14ea
+  archived: false
+  latestVersion: v3.0
+  collectedAt: 2026-08-31T03:21:14Z
+timeline:
+  created: 2016-08-08
+  lastCommit: 2026-08-16
+  lastRelease: 2026-08-16
+popularity:
+  star: 1091
+  watcher: 18
+  fork: 54
+  release: 13
+  contributor: 9
+  pullRequest: 2
+  issue: 41
+language:
+  Python: 27545
+  Roff: 7000
+  Shell: 3072
+  Makefile: 522
+totalLine: 38139
+recent:
+  last30d:
+    since: 2026-08-01
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 4
+  last90d:
+    since: 2026-06-02
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 6
+  last180d:
+    since: 2026-03-04
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 7
+  last360d:
+    since: 2025-09-05
+    release: 1
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 0
+    openIssue: 0
+    commit: 10
