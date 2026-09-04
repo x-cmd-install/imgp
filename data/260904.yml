@@ -7,7 +7,7 @@ about:
   head: 63b14ea
   archived: false
   latestVersion: v3.0
-  collectedAt: 2026-09-04T19:20:51Z
+  collectedAt: 2026-09-04T21:16:01Z
 timeline:
   created: 2016-08-08
   lastCommit: 2026-08-16
@@ -83,6 +83,44 @@ total:
   openIssue: 0
   commit: 298
 ---
+path: /home/runner/.x-repo/github.com/jarun/imgp
+collectedAt: 2026-09-04T21:16:01Z
+loc:
+  Python:
+    code: 637
+    comments: 50
+    blanks: 128
+    files: 2
+  Bash:
+    code: 44
+    comments: 9
+    blanks: 5
+    files: 1
+  Fish:
+    code: 22
+    comments: 6
+    blanks: 0
+    files: 1
+  Makefile:
+    code: 21
+    comments: 0
+    blanks: 5
+    files: 1
+  Autoconf:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 187
+    blanks: 78
+    files: 1
+total:
+  code: 725
+  comments: 252
+  blanks: 216
+  files: 7
 ---
 date: "2026-08-24"
 repo:
