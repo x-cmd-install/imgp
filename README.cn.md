@@ -12,6 +12,28 @@
 x install imgp
 ```
 
+## 代码规模
+
+合计: **725** 行代码（覆盖前 5 种语言、共 **6** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Python | 637 | 50 | 128 | 2 |
+| Bash | 44 | 9 | 5 | 1 |
+| Fish | 22 | 6 | 0 | 1 |
+| Makefile | 21 | 0 | 5 | 1 |
+| Autoconf | 1 | 0 | 0 | 1 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **2.5 / 10**
+
+评分最低的几项:
+
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/jarun/imgp>
@@ -35,30 +57,28 @@ x install imgp
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 0 | 0 | 0 | 0 | 4 |
+| last60d | 2026-07-12 | 1 | 0 | 0 | 0 | 0 | 4 |
 | 90d | 2026-06-12 | 1 | 0 | 0 | 0 | 0 | 5 |
+| last180d | 2026-03-14 | 1 | 0 | 0 | 0 | 0 | 7 |
 | 360d | 2025-09-15 | 1 | 0 | 0 | 0 | 0 | 10 |
+| last720d | 2024-09-20 | 1 | 2 | 0 | 0 | 0 | 19 |
 
-## 代码规模
+## 发行版状态
 
-合计: **725** 行代码（覆盖前 5 种语言、共 **6** 个文件）。
+在 [repology.org](https://repology.org/project/imgp) 上共有 **52** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**47** 个 ⚠️ 使用旧版本。
 
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Python | 637 | 50 | 128 | 2 |
-| Bash | 44 | 9 | 5 | 1 |
-| Fish | 22 | 6 | 0 | 1 |
-| Makefile | 21 | 0 | 5 | 1 |
-| Autoconf | 1 | 0 | 0 | 1 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **2.5 / 10**
-
-评分最低的几项:
-
-- **Token-Permissions** (-1/10) — No tokens found
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Packaging** (-1/10) — packaging workflow not detected
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `2.9` | ⚠️ outdated |
+| Debian 14 | `2.9` | ⚠️ outdated |
+| Debian 13 | `2.9` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.9` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.9` | ⚠️ outdated |
+| Homebrew | `3.0` | ✅ latest |
+| Fedora rawhide | `2.9` | ⚠️ outdated |
+| Nix unstable | `3.0` | ✅ latest |
+| Void | `2.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.0` | ✅ latest |
 
 ## 改进这些数据
 
@@ -69,4 +89,4 @@ imgp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T15:58:03Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:18:09Z._

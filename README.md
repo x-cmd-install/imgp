@@ -12,6 +12,28 @@
 x install imgp
 ```
 
+## Code insight
+
+Total: **725** lines of code across **6** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Python | 637 | 50 | 128 | 2 |
+| Bash | 44 | 9 | 5 | 1 |
+| Fish | 22 | 6 | 0 | 1 |
+| Makefile | 21 | 0 | 5 | 1 |
+| Autoconf | 1 | 0 | 0 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **2.5 / 10**
+
+Lowest-scoring checks:
+
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
+
 ## Source
 
 - **Upstream**: <https://github.com/jarun/imgp>
@@ -35,30 +57,28 @@ x install imgp
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 1 | 0 | 0 | 0 | 0 | 4 |
+| last60d | 2026-07-12 | 1 | 0 | 0 | 0 | 0 | 4 |
 | 90d | 2026-06-12 | 1 | 0 | 0 | 0 | 0 | 5 |
+| last180d | 2026-03-14 | 1 | 0 | 0 | 0 | 0 | 7 |
 | 360d | 2025-09-15 | 1 | 0 | 0 | 0 | 0 | 10 |
+| last720d | 2024-09-20 | 1 | 2 | 0 | 0 | 0 | 19 |
 
-## Code size
+## Distribution status
 
-Total: **725** lines of code across **6** files in the top 5 languages.
+Reported by **52** distros on [repology.org](https://repology.org/project/imgp). **4** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Python | 637 | 50 | 128 | 2 |
-| Bash | 44 | 9 | 5 | 1 |
-| Fish | 22 | 6 | 0 | 1 |
-| Makefile | 21 | 0 | 5 | 1 |
-| Autoconf | 1 | 0 | 0 | 1 |
-
-## OpenSSF Scorecard
-
-Overall score: **2.5 / 10**
-
-Lowest-scoring checks:
-
-- **Token-Permissions** (-1/10) — No tokens found
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Packaging** (-1/10) — packaging workflow not detected
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `2.9` | ⚠️ outdated |
+| Debian 14 | `2.9` | ⚠️ outdated |
+| Debian 13 | `2.9` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `2.9` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `2.9` | ⚠️ outdated |
+| Homebrew | `3.0` | ✅ latest |
+| Fedora rawhide | `2.9` | ⚠️ outdated |
+| Nix unstable | `3.0` | ✅ latest |
+| Void | `2.9` | ⚠️ outdated |
+| openSUSE Tumbleweed | `3.0` | ✅ latest |
 
 ## Improve this data
 
@@ -69,4 +89,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:58:03Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:18:09Z._
