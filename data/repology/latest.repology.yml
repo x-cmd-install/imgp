@@ -1,0 +1,658 @@
+- repo: homebrew
+  srcname: imgp
+  visiblename: imgp
+  version: "3.0"
+  origversion: null
+  status: newest
+  summary: High-performance CLI batch image resizer & rotator
+- repo: kali_rolling
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: nix_stable_24_05
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: aur
+  srcname: imgp-git
+  binname: imgp-git
+  visiblename: imgp-git
+  version: v2.9.r13.g00b2b52
+  origversion: v2.9.r13.g00b2b52-2
+  status: rolling
+  summary: Resize or rotate JPEG and PNG images.
+  maintainers:
+    - redraid@aur
+  licenses:
+    - GPL3
+- repo: gnuguix
+  srcname: imgp
+  binname: imgp
+  visiblename: imgp
+  version: 2.9-0.00b2b52
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+- repo: aur
+  srcname: imgp
+  binname: imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  maintainers:
+    - pabloariasal@aur
+  licenses:
+    - GPL3
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.6"
+  origversion: 2.6-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+- repo: deepin_25
+  subrepo: community
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: fedora_39
+  subrepo: release
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1.fc39
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-3.fc40
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-4.fc41
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_42
+  subrepo: release
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-5.fc42
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-6.fc43
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-7.fc44
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: fedora_rawhide
+  subrepo: development
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-8.fc45
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  licenses:
+    - GPL-3.0-only
+  categories:
+    - Unspecified
+- repo: nix_stable_24_11
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_05
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_26_05
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_unstable
+  srcname: imgp
+  visiblename: imgp
+  version: "3.0"
+  origversion: null
+  status: newest
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-bp155.2.9
+  status: outdated
+  summary: Image resizer and rotator
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Graphics/Convertors
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-bp156.1.1
+  status: outdated
+  summary: Image resizer and rotator
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Graphics/Convertors
+- repo: opensuse_tumbleweed
+  subrepo: src-oss
+  srcname: imgp
+  binnames:
+    - imgp
+    - imgp-bash-completion
+    - imgp-fish-completion
+    - imgp-zsh-completion
+  visiblename: imgp
+  version: "3.0"
+  origversion: 3.0-1.1
+  status: newest
+  summary: Image resizer and rotator
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Graphics/Convertors
+- repo: opensuse_graphics_tumbleweed
+  srcname: imgp
+  binnames:
+    - imgp
+    - imgp-bash-completion
+    - imgp-fish-completion
+    - imgp-zsh-completion
+  visiblename: imgp
+  version: "3.0"
+  origversion: 3.0-19.3
+  status: newest
+  summary: Image resizer and rotator
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Productivity/Graphics/Convertors
+- repo: pardus_21
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.6"
+  origversion: 2.6-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: graphics/imgp
+  visiblename: graphics/imgp
+  version: "2.8"
+  origversion: null
+  status: outdated
+  maintainers:
+    - d.zlatanidis@gmail.com
+  categories:
+    - graphics
+- repo: trisquel_10_0
+  subrepo: nabia/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_18_04
+  subrepo: bionic/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.5"
+  origversion: 2.5-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.7"
+  origversion: 2.7-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: imgp
+  binname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: "2.9_1"
+  status: outdated
+  summary: Multi-core batch image resizer and rotator
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - GPL-3.0-or-later
