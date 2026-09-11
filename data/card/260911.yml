@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.0"
   latestRelease: "v3.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-11T03:55:16Z
+  collectedAt: 2026-09-11T20:40:35Z
 timeline:
   created: 2016-08-08
   lastCommit: 2026-08-16
@@ -86,7 +86,7 @@ total:
   commit: 298
 ---
 path: /home/runner/.x-repo/github.com/jarun/imgp
-collectedAt: 2026-09-11T03:55:17Z
+collectedAt: 2026-09-11T20:40:36Z
 loc:
   Python:
     code: 637
