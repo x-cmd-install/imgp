@@ -26,11 +26,11 @@ Total: **725** lines of code across **6** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **2.5 / 10**
+Overall score: **2.4 / 10**
 
 Lowest-scoring checks:
 
-- **Token-Permissions** (-1/10) — No tokens found
+- **Maintained** (4/10) — 5 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 4
 - **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-15 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-16 | 1 | 0 | 0 | 0 | 0 | 4 |
-| 90d | 2026-06-16 | 1 | 0 | 0 | 0 | 0 | 5 |
-| last180d | 2026-03-18 | 1 | 0 | 0 | 0 | 0 | 7 |
-| 360d | 2025-09-19 | 1 | 0 | 0 | 0 | 0 | 10 |
-| last720d | 2024-09-24 | 1 | 2 | 0 | 0 | 0 | 19 |
+| 30d | 2026-08-16 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-17 | 1 | 0 | 0 | 0 | 0 | 4 |
+| 90d | 2026-06-17 | 1 | 0 | 0 | 0 | 0 | 5 |
+| last180d | 2026-03-19 | 1 | 0 | 0 | 0 | 0 | 7 |
+| 360d | 2025-09-20 | 1 | 0 | 0 | 0 | 0 | 10 |
+| last720d | 2024-09-25 | 1 | 2 | 0 | 0 | 0 | 19 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260914.yml` · 2026-09-14T04:14:35Z._
+_Snapshot: `data/card/260915.yml` · 2026-09-15T04:14:11Z._
