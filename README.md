@@ -4,7 +4,7 @@
 
 :camera_flash: Fast batch image resizer and rotator
 
-[![x-cmd/install — imgp Code Quality Monitoring Repo Card](https://repo.x-cmd.io/imgp.svg)](https://x-cmd.com/install/imgp)
+[![x-cmd/install — imgp Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/imgp.svg)](https://x-cmd.com/install/imgp)
 
 ## Install
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 1 | 0 | 0 | 0 | 0 | 4 |
-| 90d | 2026-06-24 | 1 | 0 | 0 | 0 | 0 | 5 |
-| last180d | 2026-03-26 | 1 | 0 | 0 | 0 | 0 | 7 |
-| 360d | 2025-09-27 | 1 | 0 | 0 | 0 | 0 | 10 |
-| last720d | 2024-10-02 | 1 | 2 | 0 | 0 | 0 | 19 |
+| 30d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 1 | 0 | 0 | 0 | 0 | 4 |
+| 90d | 2026-06-25 | 1 | 0 | 0 | 0 | 0 | 5 |
+| last180d | 2026-03-27 | 1 | 0 | 0 | 0 | 0 | 7 |
+| 360d | 2025-09-28 | 1 | 0 | 0 | 0 | 0 | 10 |
+| last720d | 2024-10-03 | 1 | 2 | 0 | 0 | 0 | 19 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:10:20Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:07:12Z._
