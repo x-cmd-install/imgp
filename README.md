@@ -30,9 +30,9 @@ Overall score: **2.4 / 10**
 
 Lowest-scoring checks:
 
-- **Packaging** (-1/10) — packaging workflow not detected
+- **Maintained** (4/10) — 5 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 4
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Code-Review** (1/10) — Found 4/26 approved changesets -- score normalized to 1
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -56,12 +56,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-07-30 | 1 | 0 | 0 | 0 | 0 | 4 |
-| 90d | 2026-06-30 | 1 | 0 | 0 | 0 | 0 | 4 |
-| last180d | 2026-04-01 | 1 | 0 | 0 | 0 | 0 | 7 |
-| 360d | 2025-10-03 | 1 | 0 | 0 | 0 | 0 | 10 |
-| last720d | 2024-10-08 | 1 | 2 | 0 | 0 | 0 | 19 |
+| 30d | 2026-08-30 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-31 | 1 | 0 | 0 | 0 | 0 | 4 |
+| 90d | 2026-07-01 | 1 | 0 | 0 | 0 | 0 | 4 |
+| last180d | 2026-04-02 | 1 | 0 | 0 | 0 | 0 | 7 |
+| 360d | 2025-10-04 | 1 | 0 | 0 | 0 | 0 | 10 |
+| last720d | 2024-10-09 | 1 | 2 | 0 | 0 | 0 | 19 |
 
 ## Improve this data
 
@@ -72,4 +72,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T04:39:13Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:06:29Z._
