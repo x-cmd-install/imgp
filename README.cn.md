@@ -30,9 +30,9 @@ x install imgp
 
 评分最低的几项:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
-- **Token-Permissions** (-1/10) — No tokens found
 - **Code-Review** (1/10) — Found 4/27 approved changesets -- score normalized to 1
+- **Token-Permissions** (-1/10) — No tokens found
+- **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## 源代码
 
@@ -56,12 +56,12 @@ x install imgp
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-08-27 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 90d | 2026-07-28 | 1 | 0 | 0 | 0 | 0 | 5 |
-| last180d | 2026-04-29 | 1 | 0 | 0 | 0 | 0 | 8 |
-| 360d | 2025-10-31 | 1 | 0 | 0 | 0 | 0 | 11 |
-| last720d | 2024-11-05 | 1 | 2 | 0 | 0 | 0 | 20 |
+| 30d | 2026-09-27 | 0 | 0 | 0 | 0 | 0 | 1 |
+| last60d | 2026-08-28 | 0 | 0 | 0 | 0 | 0 | 1 |
+| 90d | 2026-07-29 | 1 | 0 | 0 | 0 | 0 | 5 |
+| last180d | 2026-04-30 | 1 | 0 | 0 | 0 | 0 | 8 |
+| 360d | 2025-11-01 | 1 | 0 | 0 | 0 | 0 | 11 |
+| last720d | 2024-11-06 | 1 | 2 | 0 | 0 | 0 | 20 |
 
 ## 发行版状态
 
@@ -89,4 +89,4 @@ imgp 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261026.yml` · 2026-10-26T04:04:13Z._
+_数据快照: `data/card/261027.yml` · 2026-10-27T04:24:14Z._
