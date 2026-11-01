@@ -42,26 +42,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.0` (2026-08-16)
-- **Last commit**: 2026-10-04
+- **Last commit**: 2026-10-31
 
 ## Popularity
 
-- **Stars**: 1,096 · **Forks**: 51 · **Open issues**: 41 · **Contributors**: 9
+- **Stars**: 1,096 · **Forks**: 51 · **Open issues**: 42 · **Contributors**: 9
 
 ## Totals (cumulative)
 
-- **Releases**: 13 · **Merged PRs**: 19 · **Open PRs**: 0 · **Closed issues**: 41 · **Open issues**: 0 · **Commits**: 299
+- **Releases**: 13 · **Merged PRs**: 19 · **Open PRs**: 0 · **Closed issues**: 41 · **Open issues**: 1 · **Commits**: 300
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 0 | 0 | 0 | 0 | 1 |
-| last60d | 2026-09-01 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 90d | 2026-08-02 | 1 | 0 | 0 | 0 | 0 | 5 |
-| last180d | 2026-05-04 | 1 | 0 | 0 | 0 | 0 | 8 |
-| 360d | 2025-11-05 | 1 | 0 | 0 | 0 | 0 | 11 |
-| last720d | 2024-11-10 | 1 | 2 | 0 | 0 | 0 | 20 |
+| 30d | 2026-10-02 | 0 | 0 | 0 | 0 | 1 | 1 |
+| last60d | 2026-09-02 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 90d | 2026-08-03 | 1 | 0 | 0 | 0 | 1 | 6 |
+| last180d | 2026-05-05 | 1 | 0 | 0 | 0 | 1 | 9 |
+| 360d | 2025-11-06 | 1 | 0 | 0 | 0 | 1 | 12 |
+| last720d | 2024-11-11 | 1 | 2 | 0 | 0 | 1 | 21 |
 
 ## Distribution status
 
@@ -89,4 +89,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T04:52:28Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T05:19:12Z._
