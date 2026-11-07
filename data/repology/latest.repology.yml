@@ -1,3 +1,156 @@
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.6"
+  origversion: 2.6-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1.1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: slackbuilds
+  srcname: graphics/imgp
+  visiblename: graphics/imgp
+  version: "2.8"
+  origversion: null
+  status: outdated
+  maintainers:
+    - d.zlatanidis@gmail.com
+  categories:
+    - graphics
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.8"
+  origversion: 2.8-2
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
 - repo: aur
   srcname: imgp
   binname: imgp
@@ -30,19 +183,6 @@
   visiblename: imgp
   version: "2.8"
   origversion: 2.8-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.8"
-  origversion: 2.8-2
   status: outdated
   maintainers:
     - szlin@debian.org
@@ -98,45 +238,6 @@
   status: outdated
   maintainers:
     - szlin@debian.org
-- repo: deepin_25
-  subrepo: community
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.9"
-  origversion: 2.9-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.8"
-  origversion: 2.8-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.9"
-  origversion: 2.9-1.1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: fedora_39
   subrepo: release
   srcname: imgp
@@ -318,6 +419,19 @@
     - sikmir@disroot.org
   licenses:
     - GPL-3.0-or-later
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: imgp
+  binnames:
+    - imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: 2.9-1build1
+  status: outdated
+  maintainers:
+    - szlin@debian.org
+  categories:
+    - universe/misc
 - repo: nix_unstable
   srcname: imgp
   visiblename: imgp
@@ -400,19 +514,6 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.9"
-  origversion: 2.9-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: parrot
   subrepo: parrot-updates/main
   srcname: imgp
   binnames:
@@ -425,34 +526,8 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.6"
-  origversion: 2.6-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.8"
-  origversion: 2.8-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: imgp
   binnames:
     - imgp
@@ -464,55 +539,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.8"
-  origversion: 2.8-2
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.9"
-  origversion: 2.9-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.9"
-  origversion: 2.9-1.1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
-- repo: slackbuilds
-  srcname: graphics/imgp
-  visiblename: graphics/imgp
-  version: "2.8"
-  origversion: null
-  status: outdated
-  maintainers:
-    - d.zlatanidis@gmail.com
-  categories:
-    - graphics
 - repo: ubuntu_18_04
   subrepo: bionic/universe
   srcname: imgp
@@ -578,21 +604,8 @@
     - szlin@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.9"
-  origversion: 2.9-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
   srcname: imgp
   binnames:
     - imgp
@@ -604,8 +617,8 @@
     - szlin@debian.org
   categories:
     - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
   srcname: imgp
   binnames:
     - imgp
