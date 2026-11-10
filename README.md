@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 1 | 1 |
-| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 1 | 2 |
-| 90d | 2026-08-10 | 1 | 0 | 0 | 0 | 1 | 2 |
-| last180d | 2026-05-12 | 1 | 0 | 0 | 0 | 1 | 9 |
-| 360d | 2025-11-13 | 1 | 0 | 0 | 0 | 1 | 12 |
-| last720d | 2024-11-18 | 1 | 2 | 0 | 0 | 1 | 21 |
+| 30d | 2026-10-11 | 0 | 0 | 0 | 0 | 1 | 1 |
+| last60d | 2026-09-11 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 90d | 2026-08-12 | 1 | 0 | 0 | 0 | 1 | 2 |
+| last180d | 2026-05-14 | 1 | 0 | 0 | 0 | 1 | 9 |
+| 360d | 2025-11-15 | 1 | 0 | 0 | 0 | 1 | 12 |
+| last720d | 2024-11-20 | 1 | 2 | 0 | 0 | 1 | 21 |
 
 ## Distribution status
 
-Reported by **52** distros on [repology.org](https://repology.org/project/imgp). **4** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
+Reported by **51** distros on [repology.org](https://repology.org/project/imgp). **4** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +89,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T05:22:28Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T06:44:17Z._
