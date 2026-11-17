@@ -26,13 +26,13 @@ Total: **725** lines of code across **6** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **2.4 / 10**
+Overall score: **2.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 4/27 approved changesets -- score normalized to 1
+- **Code-Review** (1/10) — Found 3/27 approved changesets -- score normalized to 1
 - **Token-Permissions** (-1/10) — No tokens found
-- **Dangerous-Workflow** (-1/10) — no workflows found
+- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -56,16 +56,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 0 | 0 | 0 | 1 | 1 |
-| last60d | 2026-09-17 | 0 | 0 | 0 | 0 | 1 | 2 |
-| 90d | 2026-08-18 | 0 | 0 | 0 | 0 | 1 | 2 |
-| last180d | 2026-05-20 | 1 | 0 | 0 | 0 | 1 | 9 |
-| 360d | 2025-11-21 | 1 | 0 | 0 | 0 | 1 | 12 |
-| last720d | 2024-11-26 | 1 | 2 | 0 | 0 | 1 | 21 |
+| 30d | 2026-10-18 | 0 | 0 | 0 | 0 | 1 | 1 |
+| last60d | 2026-09-18 | 0 | 0 | 0 | 0 | 1 | 2 |
+| 90d | 2026-08-19 | 0 | 0 | 0 | 0 | 1 | 2 |
+| last180d | 2026-05-21 | 1 | 0 | 0 | 0 | 1 | 9 |
+| 360d | 2025-11-22 | 1 | 0 | 0 | 0 | 1 | 12 |
+| last720d | 2024-11-27 | 1 | 2 | 0 | 0 | 1 | 21 |
 
 ## Distribution status
 
-Reported by **51** distros on [repology.org](https://repology.org/project/imgp). **4** are ✅ on the latest upstream release, **46** are ⚠️ on an older version.
+Reported by **52** distros on [repology.org](https://repology.org/project/imgp). **4** are ✅ on the latest upstream release, **47** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,4 +89,4 @@ Install metadata for imgp lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T05:42:53Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T07:20:12Z._
