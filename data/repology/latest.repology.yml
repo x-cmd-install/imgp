@@ -9,28 +9,43 @@
     - sikmir@disroot.org
   licenses:
     - GPL-3.0-or-later
-- repo: nix_stable_25_05
+- repo: aur
   srcname: imgp
+  binname: imgp
   visiblename: imgp
-  version: "2.9"
-  origversion: null
+  version: "2.8"
+  origversion: 2.8-1
   status: outdated
-  summary: High-performance CLI batch image resizer & rotator
+  summary: Multi-core batch image resizer and rotator
   maintainers:
-    - sikmir@disroot.org
+    - pabloariasal@aur
   licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_11
+    - GPL3
+- repo: aur
+  srcname: imgp-git
+  binname: imgp-git
+  visiblename: imgp-git
+  version: v3.0.r1.g8a3de39
+  origversion: 1:v3.0.r1.g8a3de39-1
+  status: rolling
+  summary: Resize or rotate JPEG and PNG images.
+  maintainers:
+    - redraid@aur
+  licenses:
+    - GPL3
+- repo: debian_11
+  subrepo: bullseye/main
   srcname: imgp
+  binnames:
+    - imgp
   visiblename: imgp
-  version: "2.9"
-  origversion: null
+  version: "2.8"
+  origversion: 2.8-1
   status: outdated
-  summary: High-performance CLI batch image resizer & rotator
   maintainers:
-    - sikmir@disroot.org
-  licenses:
-    - GPL-3.0-or-later
+    - szlin@debian.org
+  categories:
+    - misc
 - repo: debian_12
   subrepo: bookworm/main
   srcname: imgp
@@ -70,43 +85,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: aur
-  srcname: imgp
-  binname: imgp
-  visiblename: imgp
-  version: "2.8"
-  origversion: 2.8-1
-  status: outdated
-  summary: Multi-core batch image resizer and rotator
-  maintainers:
-    - pabloariasal@aur
-  licenses:
-    - GPL3
-- repo: aur
-  srcname: imgp-git
-  binname: imgp-git
-  visiblename: imgp-git
-  version: v3.0.r1.g8a3de39
-  origversion: 1:v3.0.r1.g8a3de39-1
-  status: rolling
-  summary: Resize or rotate JPEG and PNG images.
-  maintainers:
-    - redraid@aur
-  licenses:
-    - GPL3
-- repo: debian_11
-  subrepo: bullseye/main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.8"
-  origversion: 2.8-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
-  categories:
-    - misc
 - repo: debian_unstable
   subrepo: sid/main
   srcname: imgp
@@ -120,17 +98,6 @@
     - szlin@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: imgp
-  binnames:
-    - imgp
-  visiblename: imgp
-  version: "2.6"
-  origversion: 2.6-1
-  status: outdated
-  maintainers:
-    - szlin@debian.org
 - repo: deepin_25
   subrepo: community
   srcname: imgp
@@ -321,6 +288,28 @@
     - sikmir@disroot.org
   licenses:
     - GPL-3.0-or-later
+- repo: nix_stable_25_05
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: nix_stable_25_11
+  srcname: imgp
+  visiblename: imgp
+  version: "2.9"
+  origversion: null
+  status: outdated
+  summary: High-performance CLI batch image resizer & rotator
+  maintainers:
+    - sikmir@disroot.org
+  licenses:
+    - GPL-3.0-or-later
 - repo: nix_stable_26_05
   srcname: imgp
   visiblename: imgp
@@ -414,7 +403,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: imgp
   binnames:
     - imgp
@@ -427,7 +416,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: imgp
   binnames:
     - imgp
